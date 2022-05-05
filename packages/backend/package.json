@@ -1,9 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "backend ",
+  "description": "backend",
   "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/NahueldeLeon05/spotify-app/issues"
   },
-  "homepage": "https://github.com/NahueldeLeon05/spotify-app#readme"
+  "homepage": "https://github.com/NahueldeLeon05/spotify-app#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node": "^17.7.2"
+  }
 }
