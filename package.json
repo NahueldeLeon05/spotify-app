@@ -1,0 +1,19 @@
+{
+  "name": "spotify-app",
+  "version": "1.0.0",
+  "description": "Consumir API de spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahueldeLeon05/spotify-app.git"
+  },
+  "author": "Nahuel de Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NahueldeLeon05/spotify-app/issues"
+  },
+  "homepage": "https://github.com/NahueldeLeon05/spotify-app#readme"
+}
