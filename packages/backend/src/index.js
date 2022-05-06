@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express from 'express'
 import setearServerEndpoints from './endpoints/index.js'
 // Inicializo variable con express
