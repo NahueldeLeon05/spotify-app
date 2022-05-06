@@ -1,5 +1,5 @@
 import express from 'express'
-import apiEndpoints from './api/ApiEndpoints'
+import apiEndpoints from './api/ApiEndpoints.js'
 
 function setearServerEndpoints (app) {
   // Creacion de rutas

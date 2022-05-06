@@ -5,15 +5,12 @@
   "main": "index.js",
   "type": "module",
   "private": true,
-  "devDependencies": {
-    "nodemon": "^2.0.16",
-    "standard": "^17.0.0"
-  },
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "standard"
+    "lint": "standard",
+    "spotify-token": "node scripts/generarSpotifyToken.js"
   },
   "repository": {
     "type": "git",
@@ -26,8 +23,15 @@
   },
   "homepage": "https://github.com/NahueldeLeon05/spotify-app#readme",
   "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
     "express": "^4.18.1",
     "node": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2",
+    "standard": "^17.0.0"
   },
   "eslintConfig": {
     "extends": "standard"
