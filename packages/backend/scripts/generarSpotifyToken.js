@@ -1,8 +1,8 @@
 import 'dotenv/config'
 import request from 'request'
 
-const CLIENT_ID = 'CLIENT_ID'
-const CLIENT_SECRET = 'CLIENT_SECRET'
+const CLIENT_ID = process.env.CLIENT_ID
+const CLIENT_SECRET = process.env.CLIENT_SECRET
 
 // Genero nuevas credenciales de spotify (https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/)
 const authOptions = {

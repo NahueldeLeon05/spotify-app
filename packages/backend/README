@@ -1,0 +1,10 @@
+#### Declarar las siguientes variables en archivo `.env`
+
+La informacion para declarar estas variables se genera en: 
+https://developer.spotify.com/documentation/web-api/
+
+```bash
+SPOTIFY_CLIENT_ID=xxxxxxxxxxxxxxxxx
+SPOTIFY_CLIENT_SECRET=xxxxxxxxxxxxxxxxx
+SPOTIFY_API_URL=https://api.spotify.com/
+```
